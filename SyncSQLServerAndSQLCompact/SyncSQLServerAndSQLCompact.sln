@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvisionServer", "ProvisionServer\ProvisionServer.csproj", "{A6A18B81-90D0-44D4-BF92-9D0474244BDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvisionClient", "ProvisionClient\ProvisionClient.csproj", "{1F40C0DB-3017-4D49-BA15-FC4B421618DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{E5671187-7A62-482E-B51E-669DB0D72154}"
+	ProjectSection(SolutionItems) = preProject
+		data\SyncCompactDB.sdf = data\SyncCompactDB.sdf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncSQLServerAndSQLCompact", "SyncSQLServerAndSQLCompact\SyncSQLServerAndSQLCompact.csproj", "{645FDE6F-116F-4890-B8F7-67F904C19D69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvisionSecondCompactClient", "ProvisionSecondCompactClient\ProvisionSecondCompactClient.csproj", "{874CCA1C-F282-494F-928D-0F360BA5D4DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecuteSecondCompactSync", "ExecuteSecondCompactSync\ExecuteSecondCompactSync.csproj", "{1C2D901A-4C27-44B4-8A67-AD1C85D39529}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvisionServerWithFilteredScope", "ProvisionServerWithFilteredScope\ProvisionServerWithFilteredScope.csproj", "{3546BFAC-E4E0-4F0D-9A10-D6ECB297F638}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvisionFilteredScopeClient", "ProvisionFilteredScopeClient\ProvisionFilteredScopeClient.csproj", "{6F93D6E3-9EBD-47BD-B1CF-7E37AB9A49FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecuteCompactFilteredSync", "ExecuteCompactFilteredSync\ExecuteCompactFilteredSync.csproj", "{573A8C9E-92B8-4005-BC72-C7717B0E2875}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6A18B81-90D0-44D4-BF92-9D0474244BDA}.Debug|x86.ActiveCfg = Debug|x86
+		{A6A18B81-90D0-44D4-BF92-9D0474244BDA}.Debug|x86.Build.0 = Debug|x86
+		{A6A18B81-90D0-44D4-BF92-9D0474244BDA}.Release|x86.ActiveCfg = Release|x86
+		{A6A18B81-90D0-44D4-BF92-9D0474244BDA}.Release|x86.Build.0 = Release|x86
+		{1F40C0DB-3017-4D49-BA15-FC4B421618DB}.Debug|x86.ActiveCfg = Debug|x86
+		{1F40C0DB-3017-4D49-BA15-FC4B421618DB}.Debug|x86.Build.0 = Debug|x86
+		{1F40C0DB-3017-4D49-BA15-FC4B421618DB}.Release|x86.ActiveCfg = Release|x86
+		{1F40C0DB-3017-4D49-BA15-FC4B421618DB}.Release|x86.Build.0 = Release|x86
+		{645FDE6F-116F-4890-B8F7-67F904C19D69}.Debug|x86.ActiveCfg = Debug|x86
+		{645FDE6F-116F-4890-B8F7-67F904C19D69}.Debug|x86.Build.0 = Debug|x86
+		{645FDE6F-116F-4890-B8F7-67F904C19D69}.Release|x86.ActiveCfg = Release|x86
+		{645FDE6F-116F-4890-B8F7-67F904C19D69}.Release|x86.Build.0 = Release|x86
+		{874CCA1C-F282-494F-928D-0F360BA5D4DE}.Debug|x86.ActiveCfg = Debug|x86
+		{874CCA1C-F282-494F-928D-0F360BA5D4DE}.Debug|x86.Build.0 = Debug|x86
+		{874CCA1C-F282-494F-928D-0F360BA5D4DE}.Release|x86.ActiveCfg = Release|x86
+		{874CCA1C-F282-494F-928D-0F360BA5D4DE}.Release|x86.Build.0 = Release|x86
+		{1C2D901A-4C27-44B4-8A67-AD1C85D39529}.Debug|x86.ActiveCfg = Debug|x86
+		{1C2D901A-4C27-44B4-8A67-AD1C85D39529}.Debug|x86.Build.0 = Debug|x86
+		{1C2D901A-4C27-44B4-8A67-AD1C85D39529}.Release|x86.ActiveCfg = Release|x86
+		{1C2D901A-4C27-44B4-8A67-AD1C85D39529}.Release|x86.Build.0 = Release|x86
+		{3546BFAC-E4E0-4F0D-9A10-D6ECB297F638}.Debug|x86.ActiveCfg = Debug|x86
+		{3546BFAC-E4E0-4F0D-9A10-D6ECB297F638}.Debug|x86.Build.0 = Debug|x86
+		{3546BFAC-E4E0-4F0D-9A10-D6ECB297F638}.Release|x86.ActiveCfg = Release|x86
+		{3546BFAC-E4E0-4F0D-9A10-D6ECB297F638}.Release|x86.Build.0 = Release|x86
+		{6F93D6E3-9EBD-47BD-B1CF-7E37AB9A49FC}.Debug|x86.ActiveCfg = Debug|x86
+		{6F93D6E3-9EBD-47BD-B1CF-7E37AB9A49FC}.Debug|x86.Build.0 = Debug|x86
+		{6F93D6E3-9EBD-47BD-B1CF-7E37AB9A49FC}.Release|x86.ActiveCfg = Release|x86
+		{6F93D6E3-9EBD-47BD-B1CF-7E37AB9A49FC}.Release|x86.Build.0 = Release|x86
+		{573A8C9E-92B8-4005-BC72-C7717B0E2875}.Debug|x86.ActiveCfg = Debug|x86
+		{573A8C9E-92B8-4005-BC72-C7717B0E2875}.Debug|x86.Build.0 = Debug|x86
+		{573A8C9E-92B8-4005-BC72-C7717B0E2875}.Release|x86.ActiveCfg = Release|x86
+		{573A8C9E-92B8-4005-BC72-C7717B0E2875}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
